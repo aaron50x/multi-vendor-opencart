@@ -17,12 +17,12 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3><?php echo $order_total;?></h3>
-              <p>Orders</p>
+              <p><?php echo $text_orders; ?></p>
             </div>
             <div class="icon">
               <i class="fa fa-shopping-cart"></i>
             </div>
-            <a href="<?php echo $orders_link ?>"class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo $orders_link ?>"class="small-box-footer"><?php echo $text_more_info ?> <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -31,12 +31,12 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3><?php echo $seller_total_sales;?></h3>
-              <p>Sales</p>
+              <p><?php echo $text_sales; ?></p>
             </div>
             <div class="icon">
               <i class="fa fa-money"></i>
             </div>
-            <a href="<?php echo $transaction?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo $transaction?>" class="small-box-footer"><?php echo $text_more_info ?> <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -45,12 +45,12 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3><?php echo $balance;?></h3>
-              <p>Earnings</p>
+              <p><?php echo $text_earnings; ?></p>
             </div>
             <div class="icon">
               <i class="fa  fa-exchange"></i>
             </div>
-            <a href="<?php echo $transaction?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo $transaction?>" class="small-box-footer"><?php echo $text_more_info ?> <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -59,12 +59,12 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3><?php echo $seller_total_products;?></h3>
-              <p>Products</p>
+              <p><?php echo $text_products; ?></p>
             </div>
             <div class="icon">
               <i class="fa fa-tags"></i>
             </div>
-            <a href="<?php echo $products_link ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo $products_link ?>" class="small-box-footer"><?php echo $text_more_info ?> <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->

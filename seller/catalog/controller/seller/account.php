@@ -56,6 +56,12 @@ class ControllerSellerAccount extends Controller {
 		$data['column_total'] = $this->language->get('column_total');
 		$data['column_action'] = $this->language->get('column_action');
 		$data['column_comment'] = $this->language->get('column_comment');
+        
+        $data['text_orders'] = $this->language->get('text_orders');
+        $data['text_sales'] = $this->language->get('text_sales');
+        $data['text_earnings'] = $this->language->get('text_earnings');
+        $data['text_products'] = $this->language->get('text_products');
+        $data['text_more_info'] = $this->language->get('text_more_info');
 		$address_id  = $this->seller->getAddressId();		
 		$seller_id  = $this->seller->getId();		
 		$data['smembership_module_status'] = $this->config->get('membership_status');
